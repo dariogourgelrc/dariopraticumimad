@@ -8,7 +8,7 @@
     tools:context=".DetailedView">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnPlaylist"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Playlist List"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.344" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnReturn"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Return"
@@ -32,7 +32,20 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnReturn2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <Button
+        android:id="@+id/btnAverage"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Average Rating"
@@ -50,10 +63,11 @@
         android:background="#ab2d9a"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp"
-        android:visibility="gone">
+        android:visibility="gone"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvCategory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -75,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289" />
+        app:layout_constraintVertical_bias="0.643" />
 
     <TextView
         android:id="@+id/tvRate"
@@ -87,22 +101,22 @@
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <TextView
         android:id="@+id/tvDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
         android:text="Song"
         android:textStyle="bold"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.137" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
