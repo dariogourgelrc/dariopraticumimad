@@ -42,17 +42,17 @@ class MainActivity : AppCompatActivity() {
             val rating = etRating.text.toString().toInt()
             val comment = etComment.text.toString()
 
-            //Add data to arrays
-            arrSong.add(song)
-            arrArtist.add(artist)
-            arrRating.add(rating)
-            arrComment.add(comment)
-
             //Error message if no input
             if (song.isEmpty() || artist.isEmpty() || rating.toString().isEmpty() || comment.isEmpty()) {
                 Toast.makeText(this, "Please enter all fields", Toast.LENGTH_SHORT).show()
                 } else {
                 Toast.makeText(this, "Added to playlist", Toast.LENGTH_SHORT).show()
+
+                ////Add data to arrays
+                arrSong.add(song)
+                arrArtist.add(artist)
+                arrRating.add(rating)
+                arrComment.add(comment)
 
                 //Clear input fields
                 etSong.text.clear()
