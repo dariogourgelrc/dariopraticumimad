@@ -12,30 +12,46 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Playlist List"
+        android:backgroundTint="#ab2d9a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <Button
         android:id="@+id/btnReturn"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Return"
+        android:backgroundTint="#ab2d9a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
+        app:layout_constraintVertical_bias="0.572" />
+
+    <Button
+        android:id="@+id/btnAverage"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Average Rating"
+        android:backgroundTint="#ab2d9a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
 
     <Button
         android:id="@+id/btnReturn2"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Return"
+        android:backgroundTint="#ab2d9a"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,18 +59,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.937" />
-
-    <Button
-        android:id="@+id/btnAverage"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
-        android:text="Average Rating"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
 
     <FrameLayout
         android:id="@+id/frameLayout"

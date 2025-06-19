@@ -26,6 +26,7 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Add to Playlist"
+        android:backgroundTint="#ab2d9a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -66,6 +67,7 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Go to List"
+        android:backgroundTint="#ab2d9a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -92,6 +94,7 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Exit App"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -118,5 +121,7 @@
             android:textStyle="bold"
             />
     </FrameLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
